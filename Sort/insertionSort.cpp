@@ -1,3 +1,5 @@
+// Insertion sort:
+// Juan Flores-Moroco
 #include <iostream>
 
 using namespace std;
