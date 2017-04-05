@@ -1,6 +1,6 @@
-// Insertion sort:
-// Juan Flores-Moroco
-//  Algoritmo de libro de Algorithms, page: 18
+//  Insertion sort:
+//  Juan Flores-Moroco
+//  Libro: Algorithms, Cormen, page: 18
 #include <iostream>
 
 using namespace std;
