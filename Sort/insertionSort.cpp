@@ -11,14 +11,12 @@ void print( const int* );
 void insertionSort( int* );
 
 int main() {
-    cout << "Sort Method: \n";
+    cout << "Sort Methods (n**2): \n";
     cout << "Insertion Sort: \n";
     int secuencia[ size ] = {9, 20, 18, 3, 13, 15, 4, 14, 5, 19, 6, 7, 16, 2, 1, 12, 10, 17, 11, 8 };
 
     print( secuencia );
-
     insertionSort( secuencia );
-
     print( secuencia );
 
     return 0;
