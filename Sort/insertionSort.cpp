@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const size_t size = 20;
+size_t size = 0;
 
 void print( const int* );
 void insertionSort( int* );
@@ -13,7 +13,9 @@ void insertionSort( int* );
 int main() {
     cout << "Sort Methods (n**2): \n";
     cout << "Insertion Sort: \n";
-    int secuencia[ size ] = {9, 20, 18, 3, 13, 15, 4, 14, 5, 19, 6, 7, 16, 2, 1, 12, 10, 17, 11, 8 };
+    int secuencia[] = {9, 20, 18, 3, 13, 15, 4, 14, 5, 19, 6, 7, 16, 2, 1, 12, 10, 17, 11, 8,
+        29, 40, 38, 23, 33, 35, 24, 34, 25, 39, 26, 27, 36, 22, 21, 32, 30, 37, 31, 28 };
+    size = sizeof(secuencia)/sizeof(secuencia[ 0 ]);
 
     print( secuencia );
     insertionSort( secuencia );
